@@ -307,12 +307,120 @@ h3 {
     color: #24baa0;
 }
 
+#contact {
+    margin-bottom: 50px;
+}
+
 #contact h3 {
     margin-top: 30px;
+    margin-bottom: 30px;
     padding-top: 20px;
 }
 
-#contact div:last-of-type {
-    margin: 0 auto;
-    width: 930px;
+#contact .row:nth-child(2) div:first-of-type {
+    float: left;
+    width: 60%;
+}
+
+input,
+textarea {
+    margin: 10px auto;
+    padding: 15px 6px;
+    width: 90%;
+    border: 1px solid #24baa0;
+    color: lightgray;
+    font-size: 22px;
+}
+
+textarea {
+    resize: none;
+}
+
+form div:last-of-type {
+    float: left;
+    width: 40%;
+}
+
+form img {
+    display: block;
+    margin-bottom: 25px;
+}
+
+input[type="checkbox"] {
+    float: left;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+}
+
+input[type="checkbox"]:checked {
+    background-image: url(../images/form_ok.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+label {
+    display: block;
+    padding-right: 10px;
+    color: darkgray;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+
+/*label span {
+    padding-top: 10px;
+}*/
+
+input[type="submit"] {
+    border-radius: 5px;
+    background-color: #24baa0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer {
+    padding-bottom: 30px;
+    color: gray;
+    font-size: 16px;
+}
+
+footer P {
+    display: block;
+    float: left;
+    padding-top: 15px;
+    width: 60%;
+}
+
+footer div {
+    float: left;
+    width: 40%;
+}
+
+footer div>a {
+    display: inline-block;
+    float: left;
+}
+
+footer div>a:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+footer div>p {
+    float: right;
+    padding-right: 30px;
+    width: auto;
+    text-transform: uppercase;
+}
+
+footer span {
+    font-weight: bolder;
 }
